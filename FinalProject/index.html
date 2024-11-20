@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pemesanan Tiket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pemesanan Tiket Transportasi</h1>
+        
+        <form id="bookingForm">
+            <label for="user_id">ID Pengguna:</label>
+            <input type="text" id="user_id" name="user_id" required>
+
+            <label for="ticket_id">ID Tiket:</label>
+            <input type="text" id="ticket_id" name="ticket_id" required>
+
+            <button type="submit">Pesan Tiket</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
